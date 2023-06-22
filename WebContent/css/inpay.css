@@ -1,0 +1,117 @@
+@charset "EUC-KR";
+body
+{
+	margin:0;
+	padding:0;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+img{
+	width:55px;
+	height:55px;
+}
+#main{
+	margin-left:auto; 
+	margin-right:auto;
+	width:600px;
+	margin-top:100px;
+}
+#title{
+	font-size:50px;
+	text-align:center;
+	font-weight:bold;
+}
+header {
+	position: fixed;
+	width:100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	height:100px;
+	color:white;
+}
+header table{
+	width:100%;
+	height:100%;
+	background-color:#262626;
+	text-align:center;
+}
+header table img{
+	width:90px;
+	height:auto;
+}
+header table td:nth-child(1){
+	text-align:left;
+	padding-left:20px;
+	font-size:40px;
+}
+header table td:nth-child(2){
+	text-align:center;
+	font-size:40px;
+}
+header table td:nth-child(3){
+	text-align:right;
+	padding-right:20px;
+}
+#main_tbl{
+	border-collapse: collapse;
+	width:100%;
+}
+#menu_tbl{
+	width:100%;
+	border-bottom:2px solid black;
+	height:110px;
+	cursor:pointer;
+}
+#main_tbl th{
+	height:30px;
+	background-color:#262626;
+}
+#main_tbl td:nth-child(2){
+	text-align:center;
+	width:57px;
+	padding-right:20px;
+}
+#menu_tbl #car_num{
+	font-size:25px;
+	font-weight:bold;
+	padding-left:20px;	
+	vertical-align : bottom;
+}
+#menu_tbl #car_time{
+	font-size:15px;
+	color:gray;
+	padding-left:20px;	
+	vertical-align : top;
+}
+footer {
+	position: fixed;
+	width:100%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height:200px;
+}
+footer table{
+	width:100%;
+	height:100%;
+	background-color:#262626;
+	opacity:0.6;
+	text-align:center;
+}
+#footer_button tr td:nth-child(1), #footer_button tr td:nth-child(3){
+	width:30%;
+}
+#footer_button img{
+	width:150px;
+	height:auto;
+}
+
+.inpay_out
+{
+	margin: 0 auto;
+	font-size:30px;
+	font-weight:bold;
+}

@@ -1,0 +1,113 @@
+@charset "EUC-KR";
+body{
+	margin:0;
+	padding:0;
+}
+input{
+	text-align:right;
+	border:none;
+}
+#inCar_main{
+	background-color:black;
+	width:1920px;
+	height:1080px;
+	text-align:center;
+	border-collapse: collapse;
+	border:5px solid white;
+}
+#inCar_main tr:nth-child(1){
+	border-bottom:2px solid white;
+}
+#inCar_main h1{
+	color:white;
+	margin-left:40px;
+}
+#main_h1{
+	text-align:left;
+
+}
+#main_p p{
+	text-align:right;
+	font-size:30px;
+	color:white;
+	font-weight:bold;
+	margin-right:40px;
+}
+#inCar_main h2{
+	color:white;	
+}
+#inCar_main td:nth-child(1){
+	width:20%
+}
+#inCar_main tr:nth-child(1){
+	height:10%;
+}
+#mainimg img{
+	width:900px;
+	height:auto;
+	margin:30px;
+	border:5px solid white;
+}
+#inCar_main table{
+	height:100%;
+	color:white;
+}
+#mainimg{
+	text-align:center;
+}
+#mainimg table{
+	border-collapse: separate;
+	border-spacing: 0 5px;
+	margin-left:auto;
+	margin-right:auto;
+	width:600px;
+	height:600px;
+}
+#img_menu{
+	height:10%;
+	font-size:25px;
+	
+}
+.menu_number, .menu_inCar, .menu_outCar, .menu_space{
+	background-color:#383838;
+	border-radius:10px;
+}
+.menu_number input, .menu_inCar input, .menu_outCar input,  .menu_space input{
+	background-color:#383838;
+}
+#img_menu input{
+	height:30px;
+	width:400px;
+	font-size:20px;
+	font-weight:bold;
+	padding:0 10px 0 10px;
+	color:white;
+}
+.menu_cost{
+	border-radius:10px;
+	background-color:#E94D4D;
+}
+.menu_cost input{
+	background-color:#E94D4D;
+	text-align:right;
+	color:yellow !important;
+}
+.menu_money{
+	border-radius:10px;
+	background-color:#5E5EE6;
+}
+.menu_money input{
+	background-color:#5E5EE6;
+	text-align:right;
+
+}
+
+#img{
+	height:30%;
+}
+#img1 {
+	margin:50px 0 50px 0;
+	width:500px;
+	height:auto;
+	border:5px solid white;
+}
